@@ -1,0 +1,11 @@
+Package: com.sttt.easybikenoads
+Name: EasyBikeNoAds
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: EasyBikeNoAds 6.82.6test
+Maintainer: sttt
+Author: sttt
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://Mieing.Github.io/repo/file/haluo.png
+
