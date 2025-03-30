@@ -1,5 +1,8 @@
 #import <UIKit/UIKit.h>
 
+@interface HLHomeShortcutBannerView : UIView
+@end
+
 @interface JYADContainerBannerView : UIView
 @end
 
@@ -25,6 +28,13 @@
 %end
 
 %hook HLHomeShortcutMagicBannerView
+- (void)layoutSubviews {
+    %orig;
+    [self removeFromSuperview];
+}
+%end
+
+%hook HLHomeShortcutBannerView
 - (void)layoutSubviews {
     %orig;
     [self removeFromSuperview];
